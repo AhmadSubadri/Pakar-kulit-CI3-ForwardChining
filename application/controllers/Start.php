@@ -20,6 +20,13 @@ class Start extends CI_Controller
         $this->load->view('partials/footer', $data);
     }
 
+    public function mulai()
+    {
+        $this->load->view('partials/head');
+        $this->load->view('mulai');
+        $this->load->view('partials/footer');
+    }
+
     public function delete()
     {
         $dataId = $this->input->post('dataId');

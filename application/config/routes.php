@@ -35,6 +35,7 @@ $route['data-admin/insert'] = 'admin/data_admin/insert';
 $route['data-admin/edit/(:any)'] = 'admin/data_admin/edit/$1';
 $route['data-admin/delete/(:any)'] = 'admin/data_admin/delete/$1';
 
+$route['mulai'] = 'start/mulai';
 $route['start'] = 'start';
 $route['start/delete'] = 'start/delete';
 $route['start/step1'] = 'start/insert_one';

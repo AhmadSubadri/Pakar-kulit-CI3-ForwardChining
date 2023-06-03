@@ -1,7 +1,7 @@
 <?php $this->load->view('admin/partials/alert.php'); ?>
 <div class="row">
     <div class="col-lg-12 d-flex align-items-strech">
-        <div class="card w-100" style="background-color: #26C8E7; box-shadow: 2px 2px 5px 5px; color:black;">
+        <div class="card w-100" style="background-color: #26C8E7; box-shadow: 2px 2px 5px 5px #CFF1F7; color:black;">
             <div class="card-body">
                 <div class="d-sm-flex d-block align-items-center justify-content-between mb-9 alert" style="background-color: #D0F8F1; box-shadow: 2px 2px 5px 5px;">
                     <div class="mb-3 mb-sm-0">

@@ -1,12 +1,12 @@
-<div class="heading_container heading_center" style="background-color: #FFBE33; box-shadow: 2px 2px 2px 2px #9AC387;">
+<div class="heading_container heading_center" style="background-color: #FFBE33; box-shadow: 2px 2px 2px 2px #CFF1F7; padding: 20px;">
     <h2>Hasil Periksa</h2>
 </div><br>
 <div class="form">
     <div>
-        <div class="heading_container heading_center" style="background-color: #FFBE33; box-shadow: 2px 2px 2px 2px #9AC387;">
+        <div class="heading_container heading_center" style="background-color: #FFBE33; box-shadow: 2px 2px 2px 2px #CFF1F7;">
             <h2>Biodata User</h2>
         </div><br>
-        <table class="table" style="box-shadow: 1px 1px 3px 3px #9AC387;">
+        <table class="table" style="box-shadow: 1px 1px 3px 3px #CFF1F7;">
             <tr>
                 <th scope="row">Nama</th>
                 <td>: <?php echo $biodata['nama']; ?></td>
@@ -32,10 +32,10 @@
                 <td>: <?php echo $biodata['alamat']; ?></td>
             </tr>
         </table>
-        <div class="heading_container heading_center" style="background-color: #FFBE33; box-shadow: 2px 2px 2px 2px #9AC387;">
+        <div class="heading_container heading_center" style="background-color: #FFBE33; box-shadow: 2px 2px 2px 2px #CFF1F7;">
             <h2>Gejala yang Dipilih</h2>
         </div><br>
-        <ul style="box-shadow: 1px 1px 3px 3px #9AC387;">
+        <ul style="box-shadow: 1px 1px 3px 3px #CFF1F7;">
             <table class="table">
                 <?php $i = 1;
                 foreach ($nama_gejala as $gejala) : ?>
@@ -46,11 +46,11 @@
                 <?php endforeach; ?>
             </table>
         </ul>
-        <div class="heading_container heading_center" style="background-color: #FFBE33; box-shadow: 2px 2px 2px 2px #9AC387;">
+        <div class="heading_container heading_center" style="background-color: #FFBE33; box-shadow: 2px 2px 2px 2px #CFF1F7;">
             <h2>Hasil Diagnosa</h2>
         </div><br>
         <?php if (!empty($result)) : ?>
-            <table class="table" style="box-shadow: 1px 1px 3px 3px #9AC387;">
+            <table class="table" style="box-shadow: 1px 1px 3px 3px #CFF1F7;">
                 <tr>
                     <th>Kode Penyakit</th>
                     <th>Nama Penyakit</th>

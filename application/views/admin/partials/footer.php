@@ -1,4 +1,4 @@
-<div class="py-6 px-6 text-center" style="background-color: #4CD3EC; box-shadow: 2px 2px 5px 5px;">
+<div class="py-6 px-6 text-center" style="background-color: #4CD3EC; box-shadow: 2px 2px 5px 5px #CFF1F7;">
     <h3 class="mb-0 fs-4">copyright © <?= date('Y'); ?></h3>
 </div>
 </div>
