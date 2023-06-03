@@ -51,7 +51,7 @@
 										Dengan Metode Forward Chaining
 									</h5>
 									<div class="btn-box">
-										<a href="" class="btn1">
+										<a href="<?= site_url('start'); ?>" class="btn1">
 											Start Now
 											<i class="fa fa-arrow-right" aria-hidden="true"></i>
 										</a>
