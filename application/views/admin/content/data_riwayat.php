@@ -1,9 +1,9 @@
 <?php $this->load->view('admin/partials/alert.php'); ?>
 <div class="row">
     <div class="col-lg-12 d-flex align-items-strech">
-        <div class="card w-100" style="background-color: #26C8E7; box-shadow: 5px 5px 5px 5px; color:black;">
+        <div class="card w-100" style="background-color: #26C8E7; box-shadow: 2px 2px 5px 5px; color:black;">
             <div class="card-body">
-                <div class="d-sm-flex d-block align-items-center justify-content-between mb-9 alert alert-success">
+                <div class="d-sm-flex d-block align-items-center justify-content-between mb-9 alert" style="background-color: #D0F8F1; box-shadow: 2px 2px 5px 5px;">
                     <div class="mb-3 mb-sm-0">
                         <h5 class="card-title fw-semibold">Data Riwayat</h5>
                     </div>
@@ -12,7 +12,7 @@
                     </div>
                 </div>
                 <div class="table-responsive">
-                    <table id="myTable" class="table table-bordered table-striped">
+                    <table id="myTable" class="table table-bordered table-striped" style="color:black;">
                         <thead>
                             <tr>
                                 <th>#</th>
@@ -32,15 +32,15 @@
                                 <?php $i = 1;
                                 foreach ($data->result() as $item) : ?>
                                     <tr>
-                                        <td><?= $i++; ?></td>
-                                        <td><?= $item->nama; ?><br><?= $item->jenis_kelamin; ?></td>
-                                        <td><?= $item->umur; ?> Tahun</td>
-                                        <td><?= $item->alamat; ?></td>
-                                        <td><?= $item->waktu; ?></td>
-                                        <td><?= $item->jawaban; ?></td>
-                                        <td><?= $item->penyakit; ?></td>
-                                        <td><span class="badge bg-success rounded-3 fw-semibold"><?= $item->persen; ?>%</span></td>
-                                        <td>
+                                        <td style="color:black;"><?= $i++; ?></td>
+                                        <td style="color:black;"><?= $item->nama; ?><br><?= $item->jenis_kelamin; ?></td>
+                                        <td style="color:black;"><?= $item->umur; ?> Tahun</td>
+                                        <td style="color:black;"><?= $item->alamat; ?></td>
+                                        <td style="color:black;"><?= $item->waktu; ?></td>
+                                        <td style="color:black;"><?= $item->jawaban; ?></td>
+                                        <td style="color:black;"><?= $item->penyakit; ?></td>
+                                        <td style="color:black;"><span class="badge bg-success rounded-3 fw-semibold"><?= $item->persen; ?>%</span></td>
+                                        <td style="color:black;">
                                             <a href="" class="btn btn-sm btn-success m-1">Edit</a>
                                             <a href="" class="btn btn-sm btn-danger m-1">Delete</a>
                                         </td>
