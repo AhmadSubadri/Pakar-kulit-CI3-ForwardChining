@@ -1,6 +1,6 @@
 <div class="hero_area">
-	<div class="bg-box">
-		<img src="<?= base_url(); ?>assets/images/background.jpg" alt="">
+	<div class="bg-box" style="background-color: #26C8E7;">
+
 	</div>
 	<!-- header section strats -->
 	<header class="header_section">
@@ -27,7 +27,7 @@
 								<a class="nav-link" href="<?= site_url(''); ?>">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="about.html">Login</a>
+								<a class="nav-link" href="<?= site_url('administrator/login'); ?>">Login</a>
 							</li>
 						</ul>
 					</div>
