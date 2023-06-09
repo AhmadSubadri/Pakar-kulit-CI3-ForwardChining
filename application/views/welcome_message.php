@@ -5,7 +5,7 @@
 			<div class="container">
 				<nav class="navbar navbar-expand-lg custom_nav-container ">
 					<a class="navbar-brand" href="<?= site_url(''); ?>">
-						<img src="<?= base_url(); ?>assets/images/favicon.png"" alt="" height=" 100%" width="20%">
+						<img src="<?= base_url(); ?>assets/images/favicon.png" alt="" height=" 100%" width="20%">
 					</a>
 
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,7 +57,7 @@
 							</div>
 							<div class="col-md-4 col-lg-4 ">
 								<div class="detail-box">
-									<img src="<?= base_url(); ?>assets/images/image_home.png" alt="" height="100%" width="100%">
+									<img src="<?= base_url(); ?>assets/images/image_home.png" alt="" class="rounded" height="100%" width="100%">
 								</div>
 							</div>
 						</div>
