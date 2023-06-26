@@ -25,4 +25,12 @@ class Data_riwayat extends CI_Controller
         $this->load->view('admin/content/data_riwayat', $data);
         $this->load->view('admin/partials/footer', $data);
     }
+
+    function delete($id)
+    {
+        $this->m_riwayat->delete($id);
+        $this->session->set_flashdata('msg', "Delete account successfuly!.");
+        $this->session->set_flashdata('msg_class', 'alert-danger');
+        redirect('data-riwayat');
+    }
 }
