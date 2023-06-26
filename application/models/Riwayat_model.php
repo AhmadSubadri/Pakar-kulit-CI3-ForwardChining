@@ -14,4 +14,9 @@ class Riwayat_model extends CI_Model
         $query = $this->db->get();
         return $query;
     }
+
+    public function delete($id)
+    {
+        return $this->db->delete('riwayat_jawaban', ['id_jawaban' => $id]);
+    }
 }

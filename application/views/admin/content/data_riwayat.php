@@ -7,9 +7,9 @@
                     <div class="mb-3 mb-sm-0">
                         <h5 class="card-title fw-semibold">Data Riwayat</h5>
                     </div>
-                    <div>
+                    <!-- <div>
                         <a href="<?= site_url('data-rule/insert') ?>" class="btn btn-sm btn-warning m-1"><i class="ti ti-printer"></i> Cetak</a>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="table-responsive">
                     <table id="myTable" class="table table-bordered table-striped" style="color:black;">
@@ -41,8 +41,7 @@
                                         <td style="color:black;"><?= $item->penyakit; ?></td>
                                         <td style="color:black;"><span class="badge bg-success rounded-3 fw-semibold"><?= $item->persen; ?>%</span></td>
                                         <td style="color:black;">
-                                            <a href="" class="btn btn-sm btn-success m-1">Edit</a>
-                                            <a href="" class="btn btn-sm btn-danger m-1">Delete</a>
+                                            <a href="<?= site_url('data-riwayat/delete/' . $item->id_jawaban); ?>" class="btn btn-sm btn-danger m-1">Delete</a>
                                         </td>
                                     </tr>
                                 <?php endforeach; ?>

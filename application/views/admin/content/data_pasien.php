@@ -18,7 +18,6 @@
                                 <th>Umur</th>
                                 <th>No KK</th>
                                 <th>Ni. Handphone</th>
-                                <th>Aksi</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -33,10 +32,6 @@
                                         <td style="color:black;"><?= $item->umur; ?></td>
                                         <td style="color:black;"><?= $item->no_kk; ?></td>
                                         <td style="color:black;"><?= $item->telp; ?></td>
-                                        <td style="color:black;">
-                                            <a href="" class="btn btn-sm btn-success m-1">Edit</a>
-                                            <a href="" class="btn btn-sm btn-danger m-1">Delete</a>
-                                        </td>
                                     </tr>
                                 <?php endforeach; ?>
                             <?php endif; ?>
