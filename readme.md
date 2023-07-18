@@ -8,3 +8,6 @@
 <h2>CONTOH</h2>
 Jika menggunakan XAMPP biasanya link http://localhost/nama-folder<br>
 jadi dirubah menjadi $config['base_url'] = 'http://localhost/nama-folder/';
+
+<h3>Di persilahkan untuk download dan di kembangkan kembali secara free</h3>
+<p>Jangan lupa di follow</p>
